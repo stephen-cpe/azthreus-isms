@@ -6,19 +6,6 @@ The interface keeps a classic Windows-era desktop layout on purpose: a white sch
 
 > **This is a demo with fictional data.** Every student, parent, address, phone number, payment, and grade in `init_db.sql` is invented. Do not put real student data into a demo database; it is wiped and rebuilt whenever the seed is run.
 
-## Screenshots
-
-Screenshots are not committed yet. Add captures to `docs/screenshots/` and keep the filenames below, or update this list:
-
-- `docs/screenshots/01-sign-in.png` — sign-in screen with the demo accounts table
-- `docs/screenshots/02-dashboard.png` — dashboard summary panels and live clock
-- `docs/screenshots/03-add-student.png` — enrollment form with the fee panel
-- `docs/screenshots/04-receive-payment.png` — payment posting form
-- `docs/screenshots/05-individual-account.png` — statement of account and payment history
-- `docs/screenshots/06-collections.png` — daily collection report
-- `docs/screenshots/07-report-card.png` — report card with quarter grades
-- `docs/screenshots/08-audit-log.png` — audit log filters and details drawer
-
 ## Features
 
 - Sign-in with scrypt password hashes and an HMAC-signed, HttpOnly session cookie (8-hour lifetime)
@@ -50,7 +37,7 @@ Screenshots are not committed yet. Add captures to `docs/screenshots/` and keep 
 
 ## Prerequisites
 
-- Node.js 20 or newer
+- Node.js 22 or newer (24 LTS recommended)
 - pnpm
 - PostgreSQL 14 or newer, running locally
 - `psql` on your `PATH`, or the full path to it
